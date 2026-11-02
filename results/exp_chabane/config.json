@@ -1,0 +1,35 @@
+{
+    "experiment_name": "exp_chabane",
+    "timestamp": "2026-11-02T23:06:58.293910",
+    "experiment_dir": "results/exp_chabane",
+    "matrix_sizes": [
+        1024,
+        2048,
+        4096
+    ],
+    "p_list": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128
+    ],
+    "run_repetition": 4,
+    "hardware_and_env": {
+        "logical_cpu_cores": 64,
+        "max_allocated_numba_threads": 128,
+        "requested_threading_layer": "omp",
+        "active_threading_layer": "omp",
+        "os_system": "Linux",
+        "os_release": "6.17.0-35-generic",
+        "machine_arch": "x86_64",
+        "processor": "x86_64",
+        "python_version": "3.10.12",
+        "numpy_version": "2.2.6",
+        "numba_version": "0.68.1",
+        "pandas_version": "2.3.3"
+    }
+}

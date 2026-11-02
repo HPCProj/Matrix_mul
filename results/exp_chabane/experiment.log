@@ -1,0 +1,72 @@
+2026-11-02 23:06:57 | INFO     | Starting experiment 'exp_chabane'
+2026-11-02 23:06:57 | INFO     | Starting Numba JIT warm-up...
+2026-11-02 23:06:58 | INFO     | Numba warm-up complete. Active threading layer: omp
+2026-11-02 23:06:58 | INFO     | Configuration saved to results/exp_chabane/config.json
+2026-11-02 23:06:58 | INFO     | Initializing matrices for size n = 1024 x 1024
+2026-11-02 23:07:00 | INFO     | [n=1024] NumPy Reference (A @ B) | Median Time: 0.604979s
+2026-11-02 23:07:01 | INFO     | [n=1024] Version 0 (Serial)      | Median Time: 0.172956s | Correct: True
+2026-11-02 23:07:02 | INFO     | [n=1024] Version 1 (Parallel)    | p=1   | Median Time: 0.182378s | Speedup: 0.9483x | Efficiency: 0.9483 | Correct: True
+2026-11-02 23:07:02 | INFO     | [n=1024] Version 1 (Parallel)    | p=2   | Median Time: 0.085902s | Speedup: 2.0134x | Efficiency: 1.0067 | Correct: True
+2026-11-02 23:07:02 | INFO     | [n=1024] Version 1 (Parallel)    | p=4   | Median Time: 0.049798s | Speedup: 3.4731x | Efficiency: 0.8683 | Correct: True
+2026-11-02 23:07:03 | INFO     | [n=1024] Version 1 (Parallel)    | p=8   | Median Time: 0.055594s | Speedup: 3.1110x | Efficiency: 0.3889 | Correct: True
+2026-11-02 23:07:03 | INFO     | [n=1024] Version 1 (Parallel)    | p=16  | Median Time: 0.093942s | Speedup: 1.8411x | Efficiency: 0.1151 | Correct: True
+2026-11-02 23:07:04 | INFO     | [n=1024] Version 1 (Parallel)    | p=32  | Median Time: 0.113577s | Speedup: 1.5228x | Efficiency: 0.0476 | Correct: True
+2026-11-02 23:07:04 | INFO     | [n=1024] Version 1 (Parallel)    | p=64  | Median Time: 0.207286s | Speedup: 0.8344x | Efficiency: 0.0130 | Correct: True
+2026-11-02 23:07:05 | INFO     | [n=1024] Version 1 (Parallel)    | p=128 | Median Time: 0.081710s | Speedup: 2.1167x | Efficiency: 0.0165 | Correct: True
+2026-11-02 23:07:05 | INFO     | Initializing matrices for size n = 2048 x 2048
+2026-11-02 23:07:10 | INFO     | [n=2048] NumPy Reference (A @ B) | Median Time: 1.051447s
+2026-11-02 23:07:21 | INFO     | [n=2048] Version 0 (Serial)      | Median Time: 2.818866s | Correct: True
+2026-11-02 23:07:33 | INFO     | [n=2048] Version 1 (Parallel)    | p=1   | Median Time: 2.747030s | Speedup: 1.0262x | Efficiency: 1.0262 | Correct: True
+2026-11-02 23:07:39 | INFO     | [n=2048] Version 1 (Parallel)    | p=2   | Median Time: 1.589690s | Speedup: 1.7732x | Efficiency: 0.8866 | Correct: True
+2026-11-02 23:07:43 | INFO     | [n=2048] Version 1 (Parallel)    | p=4   | Median Time: 0.806839s | Speedup: 3.4937x | Efficiency: 0.8734 | Correct: True
+2026-11-02 23:07:46 | INFO     | [n=2048] Version 1 (Parallel)    | p=8   | Median Time: 0.831189s | Speedup: 3.3914x | Efficiency: 0.4239 | Correct: True
+2026-11-02 23:07:50 | INFO     | [n=2048] Version 1 (Parallel)    | p=16  | Median Time: 0.934375s | Speedup: 3.0168x | Efficiency: 0.1886 | Correct: True
+2026-11-02 23:07:54 | INFO     | [n=2048] Version 1 (Parallel)    | p=32  | Median Time: 0.981092s | Speedup: 2.8732x | Efficiency: 0.0898 | Correct: True
+2026-11-02 23:07:58 | INFO     | [n=2048] Version 1 (Parallel)    | p=64  | Median Time: 1.031254s | Speedup: 2.7334x | Efficiency: 0.0427 | Correct: True
+2026-11-02 23:08:02 | INFO     | [n=2048] Version 1 (Parallel)    | p=128 | Median Time: 0.901243s | Speedup: 3.1278x | Efficiency: 0.0244 | Correct: True
+2026-11-02 23:08:02 | INFO     | Initializing matrices for size n = 4096 x 4096
+2026-11-02 23:08:15 | INFO     | [n=4096] NumPy Reference (A @ B) | Median Time: 3.058516s
+2026-11-02 23:09:55 | INFO     | [n=4096] Version 0 (Serial)      | Median Time: 24.748303s | Correct: True
+2026-11-02 23:11:34 | INFO     | [n=4096] Version 1 (Parallel)    | p=1   | Median Time: 24.725383s | Speedup: 1.0009x | Efficiency: 1.0009 | Correct: True
+2026-11-02 23:12:29 | INFO     | [n=4096] Version 1 (Parallel)    | p=2   | Median Time: 13.641316s | Speedup: 1.8142x | Efficiency: 0.9071 | Correct: True
+2026-11-02 23:12:58 | INFO     | [n=4096] Version 1 (Parallel)    | p=4   | Median Time: 7.193849s | Speedup: 3.4402x | Efficiency: 0.8601 | Correct: True
+2026-11-02 23:13:33 | INFO     | [n=4096] Version 1 (Parallel)    | p=8   | Median Time: 7.684336s | Speedup: 3.2206x | Efficiency: 0.4026 | Correct: True
+2026-11-02 23:14:09 | INFO     | [n=4096] Version 1 (Parallel)    | p=16  | Median Time: 8.687183s | Speedup: 2.8488x | Efficiency: 0.1781 | Correct: True
+2026-11-02 23:14:50 | INFO     | [n=4096] Version 1 (Parallel)    | p=32  | Median Time: 9.628637s | Speedup: 2.5703x | Efficiency: 0.0803 | Correct: True
+2026-11-02 23:15:29 | INFO     | [n=4096] Version 1 (Parallel)    | p=64  | Median Time: 9.782592s | Speedup: 2.5298x | Efficiency: 0.0395 | Correct: True
+2026-11-02 23:16:10 | INFO     | [n=4096] Version 1 (Parallel)    | p=128 | Median Time: 9.893573s | Speedup: 2.5015x | Efficiency: 0.0195 | Correct: True
+2026-11-02 23:16:10 | INFO     | Results DataFrame saved to results/exp_chabane/results.csv
+2026-11-02 23:16:10 | INFO     | Experiment Summary Table:
+             version    n   p  median_time_s  speedup  efficiency  correct_allclose
+     NumPy Reference 1024  64       0.604979 0.285887    0.004467              True
+  Version 0 (Serial) 1024   1       0.172956 1.000000    1.000000              True
+Version 1 (Parallel) 1024   1       0.182378 0.948334    0.948334              True
+Version 1 (Parallel) 1024   2       0.085902 2.013402    1.006701              True
+Version 1 (Parallel) 1024   4       0.049798 3.473139    0.868285              True
+Version 1 (Parallel) 1024   8       0.055594 3.111032    0.388879              True
+Version 1 (Parallel) 1024  16       0.093942 1.841080    0.115068              True
+Version 1 (Parallel) 1024  32       0.113577 1.522808    0.047588              True
+Version 1 (Parallel) 1024  64       0.207286 0.834381    0.013037              True
+Version 1 (Parallel) 1024 128       0.081710 2.116694    0.016537              True
+     NumPy Reference 2048  64       1.051447 2.680939    0.041890              True
+  Version 0 (Serial) 2048   1       2.818866 1.000000    1.000000              True
+Version 1 (Parallel) 2048   1       2.747030 1.026150    1.026150              True
+Version 1 (Parallel) 2048   2       1.589690 1.773217    0.886609              True
+Version 1 (Parallel) 2048   4       0.806839 3.493717    0.873429              True
+Version 1 (Parallel) 2048   8       0.831189 3.391365    0.423921              True
+Version 1 (Parallel) 2048  16       0.934375 3.016846    0.188553              True
+Version 1 (Parallel) 2048  32       0.981092 2.873192    0.089787              True
+Version 1 (Parallel) 2048  64       1.031254 2.733436    0.042710              True
+Version 1 (Parallel) 2048 128       0.901243 3.127754    0.024436              True
+     NumPy Reference 4096  64       3.058516 8.091604    0.126431              True
+  Version 0 (Serial) 4096   1      24.748303 1.000000    1.000000              True
+Version 1 (Parallel) 4096   1      24.725383 1.000927    1.000927              True
+Version 1 (Parallel) 4096   2      13.641316 1.814217    0.907108              True
+Version 1 (Parallel) 4096   4       7.193849 3.440203    0.860051              True
+Version 1 (Parallel) 4096   8       7.684336 3.220617    0.402577              True
+Version 1 (Parallel) 4096  16       8.687183 2.848829    0.178052              True
+Version 1 (Parallel) 4096  32       9.628637 2.570281    0.080321              True
+Version 1 (Parallel) 4096  64       9.782592 2.529831    0.039529              True
+Version 1 (Parallel) 4096 128       9.893573 2.501452    0.019543              True
+2026-11-02 23:16:11 | INFO     | Plots saved in results/exp_chabane (speedup.png, efficiency.png, runtime.png)
+2026-11-02 23:16:11 | INFO     | Experiment finished successfully.
