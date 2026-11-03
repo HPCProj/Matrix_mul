@@ -1,0 +1,11 @@
+[2026-11-03 00:26:29] [INFO] Configuration saved to results/exp_test/config.json
+[2026-11-03 00:26:29] [INFO] Pre-compiling and caching Numba kernel once before spawning MPI ranks...
+[2026-11-03 00:26:30] [INFO] Computing Serial Baseline for n = 1024...
+[2026-11-03 00:26:31] [INFO] [Baseline] n=1024 | Serial median runtime: 0.1533s
+[2026-11-03 00:26:36] [INFO] [MPI] n=1024 | p=1   | Total: 0.1612s | Comp: 0.1589s | Comm: 0.0024s | Speedup: 0.95x | Eff: 0.95 | Correct: True
+[2026-11-03 00:26:41] [INFO] [MPI] n=1024 | p=2   | Total: 0.1138s | Comp: 0.0950s | Comm: 0.0159s | Speedup: 1.35x | Eff: 0.67 | Correct: True
+[2026-11-03 00:26:45] [INFO] [MPI] n=1024 | p=4   | Total: 0.0851s | Comp: 0.0480s | Comm: 0.0358s | Speedup: 1.80x | Eff: 0.45 | Correct: True
+[2026-11-03 00:26:53] [INFO] [MPI] n=1024 | p=8   | Total: 0.1739s | Comp: 0.0317s | Comm: 0.1413s | Speedup: 0.88x | Eff: 0.11 | Correct: True
+[2026-11-03 00:27:07] [INFO] [MPI] n=1024 | p=16  | Total: 0.2913s | Comp: 0.0948s | Comm: 0.2009s | Speedup: 0.53x | Eff: 0.03 | Correct: True
+[2026-11-03 00:27:42] [INFO] [MPI] n=1024 | p=32  | Total: 1.5182s | Comp: 0.1221s | Comm: 1.3952s | Speedup: 0.10x | Eff: 0.00 | Correct: True
+[2026-11-03 00:29:09] [INFO] [MPI] n=1024 | p=64  | Total: 4.1099s | Comp: 0.1697s | Comm: 3.8889s | Speedup: 0.04x | Eff: 0.00 | Correct: True

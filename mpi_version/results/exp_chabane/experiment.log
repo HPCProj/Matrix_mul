@@ -1,0 +1,22 @@
+[2026-11-03 00:08:51] [INFO] Configuration metadata stored in config.json
+[2026-11-03 00:08:52] [INFO] Computing Serial Baseline for n = 1024...
+[2026-11-03 00:08:53] [INFO] [Baseline] Serial median runtime: 0.1401s
+[2026-11-03 00:08:58] [INFO] [MPI] n=1024 | p=1   | Total: 0.1562s | Comp: 0.1539s | Comm: 0.0022s | Speedup: 0.90x | Eff: 0.90 | Correct: True
+[2026-11-03 00:09:02] [INFO] [MPI] n=1024 | p=2   | Total: 0.0900s | Comp: 0.0831s | Comm: 0.0095s | Speedup: 1.56x | Eff: 0.78 | Correct: True
+[2026-11-03 00:09:07] [INFO] [MPI] n=1024 | p=4   | Total: 0.0783s | Comp: 0.0500s | Comm: 0.0285s | Speedup: 1.79x | Eff: 0.45 | Correct: True
+[2026-11-03 00:09:14] [INFO] [MPI] n=1024 | p=8   | Total: 0.1253s | Comp: 0.0780s | Comm: 0.0237s | Speedup: 1.12x | Eff: 0.14 | Correct: True
+[2026-11-03 00:09:14] [INFO] Computing Serial Baseline for n = 2048...
+[2026-11-03 00:09:24] [INFO] [Baseline] Serial median runtime: 2.5733s
+[2026-11-03 00:09:41] [INFO] [MPI] n=2048 | p=1   | Total: 2.8518s | Comp: 2.8450s | Comm: 0.0069s | Speedup: 0.90x | Eff: 0.90 | Correct: True
+[2026-11-03 00:09:52] [INFO] [MPI] n=2048 | p=2   | Total: 1.5038s | Comp: 1.4521s | Comm: 0.0613s | Speedup: 1.71x | Eff: 0.86 | Correct: True
+[2026-11-03 00:10:01] [INFO] [MPI] n=2048 | p=4   | Total: 0.8962s | Comp: 0.7799s | Comm: 0.0929s | Speedup: 2.87x | Eff: 0.72 | Correct: True
+[2026-11-03 00:10:13] [INFO] [MPI] n=2048 | p=8   | Total: 1.1816s | Comp: 0.9251s | Comm: 0.2421s | Speedup: 2.18x | Eff: 0.27 | Correct: True
+[2026-11-03 00:10:13] [INFO] Computing Serial Baseline for n = 4096...
+[2026-11-03 00:11:51] [INFO] [Baseline] Serial median runtime: 24.2768s
+[2026-11-03 00:13:45] [INFO] [MPI] n=4096 | p=1   | Total: 24.5539s | Comp: 24.5291s | Comm: 0.0230s | Speedup: 0.99x | Eff: 0.99 | Correct: True
+[2026-11-03 00:14:54] [INFO] [MPI] n=4096 | p=2   | Total: 13.4590s | Comp: 13.2036s | Comm: 0.2542s | Speedup: 1.80x | Eff: 0.90 | Correct: True
+[2026-11-03 00:15:37] [INFO] [MPI] n=4096 | p=4   | Total: 7.2739s | Comp: 6.8214s | Comm: 0.4433s | Speedup: 3.34x | Eff: 0.83 | Correct: True
+[2026-11-03 00:16:36] [INFO] [MPI] n=4096 | p=8   | Total: 11.4228s | Comp: 8.2257s | Comm: 2.5409s | Speedup: 2.13x | Eff: 0.27 | Correct: True
+[2026-11-03 00:16:36] [INFO] Results saved to results/exp_chabane/results.csv
+[2026-11-03 00:16:37] [INFO] Generated plots: speedup.png, efficiency.png, comm_comp_breakdown.png
+[2026-11-03 00:16:37] [INFO] MPI Experiment completed successfully.

@@ -1,0 +1,4 @@
+numpy 
+pandas 
+matplotlib
+mpi4py

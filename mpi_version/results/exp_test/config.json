@@ -1,0 +1,27 @@
+{
+    "experiment_name": "exp_test",
+    "experiment_dir": "results/exp_test",
+    "matrix_sizes": [
+        1024,
+        2048,
+        4096
+    ],
+    "p_list": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128
+    ],
+    "run_repetition": 4,
+    "system": {
+        "os": "Linux",
+        "os_release": "6.17.0-35-generic",
+        "cpu_cores_logical": 64,
+        "available_ram_gb": 589.62,
+        "python": "3.10.12"
+    }
+}
