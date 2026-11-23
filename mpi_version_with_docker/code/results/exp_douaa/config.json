@@ -1,0 +1,24 @@
+{
+    "experiment_name": "exp_douaa",
+    "results_folder": "results",
+    "matrix_sizes": [
+        1024,
+        2048,
+        4096
+    ],
+    "p_list": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+    ],
+    "run_repetition": 4,
+    "system": {
+        "os": "Linux",
+        "os_release": "6.17.0-1011-oracle",
+        "cpu_cores_logical": 48,
+        "python": "3.12.16"
+    }
+}
