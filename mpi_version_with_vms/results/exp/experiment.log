@@ -1,0 +1,56 @@
+[2026-11-24 18:36:52] [INFO] Configuration metadata stored in config.json
+[2026-11-24 18:36:53] [INFO] Computing Serial Baseline for n = 1024...
+[2026-11-24 18:36:54] [INFO] [Baseline] Serial median runtime: 0.3511s
+[2026-11-24 18:36:59] [INFO] [MPI] n=1024 | p=1   | Total: 0.3646s | Comp: 0.3606s | Comm: 0.0045s | Speedup: 0.96x | Eff: 0.96 | Correct: True
+[2026-11-24 18:37:04] [INFO] [MPI] n=1024 | p=2   | Total: 0.1890s | Comp: 0.1779s | Comm: 0.0123s | Speedup: 1.86x | Eff: 0.93 | Correct: True
+[2026-11-24 18:37:09] [INFO] [MPI] n=1024 | p=4   | Total: 0.2396s | Comp: 0.0927s | Comm: 0.1488s | Speedup: 1.47x | Eff: 0.37 | Correct: True
+[2026-11-24 18:37:19] [INFO] [MPI] n=1024 | p=8   | Total: 0.4082s | Comp: 0.1200s | Comm: 0.2890s | Speedup: 0.86x | Eff: 0.11 | Correct: True
+[2026-11-24 18:37:38] [INFO] [MPI] n=1024 | p=16  | Total: 0.7129s | Comp: 0.1714s | Comm: 0.5339s | Speedup: 0.49x | Eff: 0.03 | Correct: True
+[2026-11-24 18:38:17] [INFO] [MPI] n=1024 | p=32  | Total: 1.2172s | Comp: 0.1840s | Comm: 1.0447s | Speedup: 0.29x | Eff: 0.01 | Correct: True
+[2026-11-24 18:38:17] [INFO] Computing Serial Baseline for n = 2048...
+[2026-11-24 18:38:35] [INFO] [Baseline] Serial median runtime: 4.4613s
+[2026-11-24 18:38:59] [INFO] [MPI] n=2048 | p=1   | Total: 4.4444s | Comp: 4.4250s | Comm: 0.0192s | Speedup: 1.00x | Eff: 1.00 | Correct: True
+[2026-11-24 18:39:16] [INFO] [MPI] n=2048 | p=2   | Total: 2.7653s | Comp: 2.7172s | Comm: 0.0480s | Speedup: 1.61x | Eff: 0.81 | Correct: True
+[2026-11-24 18:39:30] [INFO] [MPI] n=2048 | p=4   | Total: 1.9086s | Comp: 1.3387s | Comm: 0.5695s | Speedup: 2.34x | Eff: 0.58 | Correct: True
+[2026-11-24 18:39:51] [INFO] [MPI] n=2048 | p=8   | Total: 2.6960s | Comp: 1.6202s | Comm: 1.0857s | Speedup: 1.65x | Eff: 0.21 | Correct: True
+[2026-11-24 18:40:23] [INFO] [MPI] n=2048 | p=16  | Total: 3.5541s | Comp: 1.7476s | Comm: 1.7806s | Speedup: 1.26x | Eff: 0.08 | Correct: True
+[2026-11-24 18:41:21] [INFO] [MPI] n=2048 | p=32  | Total: 5.0177s | Comp: 1.7476s | Comm: 3.2637s | Speedup: 0.89x | Eff: 0.03 | Correct: True
+[2026-11-24 18:41:21] [INFO] Computing Serial Baseline for n = 4096...
+[2026-11-24 18:44:47] [INFO] [Baseline] Serial median runtime: 51.3951s
+[2026-11-24 18:48:34] [INFO] [MPI] n=4096 | p=1   | Total: 51.2743s | Comp: 51.2013s | Comm: 0.0731s | Speedup: 1.00x | Eff: 1.00 | Correct: True
+[2026-11-24 18:50:42] [INFO] [MPI] n=4096 | p=2   | Total: 26.8763s | Comp: 26.5481s | Comm: 0.2215s | Speedup: 1.91x | Eff: 0.96 | Correct: True
+[2026-11-24 18:52:06] [INFO] [MPI] n=4096 | p=4   | Total: 15.5342s | Comp: 13.1913s | Comm: 2.3678s | Speedup: 3.31x | Eff: 0.83 | Correct: True
+[2026-11-24 18:53:41] [INFO] [MPI] n=4096 | p=8   | Total: 17.2829s | Comp: 13.3744s | Comm: 3.9452s | Speedup: 2.97x | Eff: 0.37 | Correct: True
+[2026-11-24 18:55:38] [INFO] [MPI] n=4096 | p=16  | Total: 20.5054s | Comp: 13.5399s | Comm: 6.8646s | Speedup: 2.51x | Eff: 0.16 | Correct: True
+[2026-11-24 18:55:58] [ERROR] mpirun error (p=32, n=4096): [proxy:1@slave] HYD_pmcd_pmip_control_cmd_cb (proxy/pmip_cb.c:487): assert (!closed) failed
+[proxy:1@slave] HYDT_dmxu_poll_wait_for_event (lib/tools/demux/demux_poll.c:76): callback returned error status
+[proxy:1@slave] main (proxy/pmip.c:122): demux engine error waiting for event
+[mpiexec@master] HYDT_bscu_wait_for_completion (lib/tools/bootstrap/utils/bscu_wait.c:109): one of the processes terminated badly; aborting
+[mpiexec@master] HYDT_bsci_wait_for_completion (lib/tools/bootstrap/src/bsci_wait.c:21): launcher returned error waiting for completion
+[mpiexec@master] HYD_pmci_wait_for_completion (mpiexec/pmiserv_pmci.c:196): launcher returned error waiting for completion
+[mpiexec@master] main (mpiexec/mpiexec.c:260): process manager error waiting for completion
+[2026-11-24 18:56:24] [ERROR] mpirun error (p=32, n=4096): [proxy:1@slave] HYD_pmcd_pmip_control_cmd_cb (proxy/pmip_cb.c:487): assert (!closed) failed
+[proxy:1@slave] HYDT_dmxu_poll_wait_for_event (lib/tools/demux/demux_poll.c:76): callback returned error status
+[proxy:1@slave] main (proxy/pmip.c:122): demux engine error waiting for event
+[mpiexec@master] HYDT_bscu_wait_for_completion (lib/tools/bootstrap/utils/bscu_wait.c:109): one of the processes terminated badly; aborting
+[mpiexec@master] HYDT_bsci_wait_for_completion (lib/tools/bootstrap/src/bsci_wait.c:21): launcher returned error waiting for completion
+[mpiexec@master] HYD_pmci_wait_for_completion (mpiexec/pmiserv_pmci.c:196): launcher returned error waiting for completion
+[mpiexec@master] main (mpiexec/mpiexec.c:260): process manager error waiting for completion
+[2026-11-24 18:56:44] [ERROR] mpirun error (p=32, n=4096): [proxy:1@slave] HYD_pmcd_pmip_control_cmd_cb (proxy/pmip_cb.c:487): assert (!closed) failed
+[proxy:1@slave] HYDT_dmxu_poll_wait_for_event (lib/tools/demux/demux_poll.c:76): callback returned error status
+[proxy:1@slave] main (proxy/pmip.c:122): demux engine error waiting for event
+[mpiexec@master] HYDT_bscu_wait_for_completion (lib/tools/bootstrap/utils/bscu_wait.c:109): one of the processes terminated badly; aborting
+[mpiexec@master] HYDT_bsci_wait_for_completion (lib/tools/bootstrap/src/bsci_wait.c:21): launcher returned error waiting for completion
+[mpiexec@master] HYD_pmci_wait_for_completion (mpiexec/pmiserv_pmci.c:196): launcher returned error waiting for completion
+[mpiexec@master] main (mpiexec/mpiexec.c:260): process manager error waiting for completion
+[2026-11-24 18:57:04] [ERROR] mpirun error (p=32, n=4096): [proxy:1@slave] HYD_pmcd_pmip_control_cmd_cb (proxy/pmip_cb.c:487): assert (!closed) failed
+[proxy:1@slave] HYDT_dmxu_poll_wait_for_event (lib/tools/demux/demux_poll.c:76): callback returned error status
+[proxy:1@slave] main (proxy/pmip.c:122): demux engine error waiting for event
+[mpiexec@master] HYDT_bscu_wait_for_completion (lib/tools/bootstrap/utils/bscu_wait.c:109): one of the processes terminated badly; aborting
+[mpiexec@master] HYDT_bsci_wait_for_completion (lib/tools/bootstrap/src/bsci_wait.c:21): launcher returned error waiting for completion
+[mpiexec@master] HYD_pmci_wait_for_completion (mpiexec/pmiserv_pmci.c:196): launcher returned error waiting for completion
+[mpiexec@master] main (mpiexec/mpiexec.c:260): process manager error waiting for completion
+[2026-11-24 18:57:04] [ERROR] Failed all executions for n=4096, p=32
+[2026-11-24 18:57:04] [INFO] Results saved to results/exp/results.csv
+[2026-11-24 18:57:06] [INFO] Generated plots: speedup.png, efficiency.png, comm_comp_breakdown.png
+[2026-11-24 18:57:06] [INFO] MPI Experiment completed successfully.
